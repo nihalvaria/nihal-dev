@@ -39,7 +39,7 @@ export const ThreeScript = (el) => {
             sphere.scale.z += 0.001;
         }
 
-        renderer.domElement.id = "bg";
+        renderer.domElement.id = el.id;
         renderer.render(scene, camera);
     }
 
