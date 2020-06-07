@@ -9,7 +9,7 @@ function ThreeBG() {
         ThreeScript(canvas.current)
     });
 
-    return <canvas ref={canvas} id="bg" className="ThreeBG w-100 h-100"></canvas>;
+    return <div ref={canvas} className="ThreeBG position-absolute w-100 h-100"></div>;
 }
 
 export default ThreeBG;

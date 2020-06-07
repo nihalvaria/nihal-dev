@@ -6,8 +6,8 @@ import Home from "../../Organisms/Home/Home"
 function MainPage() {
     return (
         <div className="MainPage h-100 w-100">
-            <Home />
             <ThreeBG />
+            <Home />
         </div>
     );
 }
