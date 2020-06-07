@@ -6,10 +6,10 @@ function ThreeBG() {
     const canvas = useRef(null);
 
     useEffect(() => {
-        ThreeScript(canvas.current);
+        ThreeScript(canvas)
     });
 
-    return <canvas ref={canvas} id="c" className="ThreeBG h-100 w-100"></canvas>
+    return <canvas ref={canvas} id="bg" className="ThreeBG w-100 h-100"></canvas>;
 }
 
 export default ThreeBG;
