@@ -1,16 +1,11 @@
 import React, { useEffect } from 'react';
-import ThreeBG from "./Molecules/ThreeBG/ThreeBG"
-import './App.scss';
+import MainPage from './Templates/MainPage/MainPage';
 
-function App() {
-
-  useEffect(() => {
-
-  })
+const App = () => {
 
   return (
     <>
-      <ThreeBG />
+      <MainPage />
     </>
   );
 }
