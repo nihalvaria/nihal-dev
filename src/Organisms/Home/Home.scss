@@ -1,3 +1,59 @@
 .Home {
-    z-index: 1;
+    z-index: 2;
+    text-align: center;
+
+    .center-con {
+        height: 50%;
+        width: 50%;
+    }
+
+    .title {
+        font-family: 'Comfortaa', cursive;
+        font-size: 5em;
+        margin: 0;
+        font-weight: 700
+    }
+
+    .subtitile {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    p {
+        color: #888;
+        margin-top: 10px;
+        font-size: .9em;
+
+        a {
+            color: #555;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Home {
+        .title {
+            font-family: 'Comfortaa', cursive;
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: 700
+        }
+
+        .subtitile {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        p {
+            color: #888;
+            margin-top: 10px;
+            font-size: .9em;
+
+            a {
+                color: #555;
+                text-decoration: underline;
+            }
+        }
+    }
 }
