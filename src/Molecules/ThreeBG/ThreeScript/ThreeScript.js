@@ -21,12 +21,11 @@ export const ThreeScript = (el) => {
     camera.position.z = 5;
 
     function render() {
-        console.log("rendering");
         requestAnimationFrame(render);
         sphere.rotation.x += 0.001;
         sphere.rotation.y += 0.001;
 
-        if (sphere.scale.x <= -1.1) sizer = false;
+        if (sphere.scale.x <= 0.3) sizer = false;
         if (sphere.scale.x >= 1.1) sizer = true;
 
         if (sizer) {
