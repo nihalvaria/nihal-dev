@@ -8,12 +8,12 @@ const Navbar = props => {
     const { navState } = useContext(Context)
 
     return (
-        <nav className="Navbar position-absolute w-100 flex justify-content-between bg-dark text-white">
+        <nav className="Navbar position-absolute w-100 flex justify-content-between text-white">
             <div className="curr-page mx-4">
                 <p className="curr-page-text m-0">{navState}</p>
             </div>
             <div className="title mx-4">
-                <Link className="title-text m-0 text-white" href="/">
+                <Link className="title-text m-0 text-white" to="/">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter

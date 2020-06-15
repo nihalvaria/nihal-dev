@@ -10,12 +10,16 @@ html, body, #varia {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  overflow-y: scroll;
   background-color: #eeeeee;
-  position: relative;
 }
 
 .flex{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
