@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const Context = React.createContext();
 
 const ContextProvider = (props) => {
-    const [Page, setPage] = useState('Home')
+    const [page, setPage] = useState('Home')
    
     async function postData(url = '', data = {}) {
         const response = await fetch(url, {
@@ -23,7 +23,7 @@ const ContextProvider = (props) => {
     return (
         <Context.Provider 
         value={{
-            Page,
+            page,
             setPage,
             postData
         }}>
