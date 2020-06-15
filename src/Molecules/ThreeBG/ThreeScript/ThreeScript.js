@@ -42,7 +42,6 @@ export const ThreeScript = (el) => {
         renderer.render(scene, camera);
     }
 
-    //resize del canvas
     window.addEventListener("resize", onWindowResize, false);
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight;
@@ -50,6 +49,5 @@ export const ThreeScript = (el) => {
         renderer.setSize(window.innerWidth, window.innerHeight);
     }
 
-    //renderizzo tutto
     render();
 };
