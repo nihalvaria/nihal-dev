@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.scss";
 
-function Home() {
+const Home = props => {
     const [displayState, setDisplayState] = useState("");
     const headerText = useRef(null);
 
